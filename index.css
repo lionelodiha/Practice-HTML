@@ -1,4 +1,4 @@
-.contact-page-container {
+.login-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,9 +6,9 @@
   align-items: center;
   flex-direction: column;
 }
-.contact-page-contact-page {
+.login-login {
   width: 100%;
-  height: 1478px;
+  height: 1024px;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -16,435 +16,219 @@
   flex-shrink: 0;
   background-color: rgba(255, 255, 255, 1);
 }
-.contact-page-whats-app-image20240106at21422 {
+.login-image14 {
+  top: 0px;
+  left: 720px;
+  width: 720px;
+  height: 1024px;
+  position: absolute;
+}
+.login-text {
+  top: 200px;
+  left: 293px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text01 {
+  font-weight: 400;
+}
+.login-frame31 {
+  gap: 11px;
+  top: 290px;
+  left: 204px;
+  width: 316px;
+  display: flex;
+  padding: 10px 60px;
+  position: absolute;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: rgba(34, 34, 34, 1);
+}
+.login-devicongoogle {
+  width: 20px;
+  height: 20px;
+}
+.login-text06 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-frame32 {
+  gap: 11px;
+  top: 429px;
+  left: 204px;
+  width: 311px;
+  display: flex;
+  padding: 10px 110px 10px 10px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(221, 221, 221, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: rgba(250, 250, 250, 1);
+}
+.login-mail {
+  width: 24px;
+  height: 24px;
+}
+.login-text08 {
+  color: rgba(122, 122, 122, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-frame33 {
+  gap: 11px;
+  top: 493px;
+  left: 204px;
+  width: 311px;
+  display: flex;
+  padding: 10px 110px 10px 10px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(221, 221, 221, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: rgba(250, 250, 250, 1);
+}
+.login-lock {
+  width: 24px;
+  height: 24px;
+}
+.login-text10 {
+  color: rgba(122, 122, 122, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-frame34 {
+  gap: 11px;
+  top: 577px;
+  left: 204px;
+  width: 311px;
+  display: flex;
+  padding: 10px 110px 10px 100px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(221, 221, 221, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  justify-content: space-between;
+  background-color: rgba(239, 239, 239, 1);
+}
+.login-text12 {
+  color: rgba(44, 44, 44, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text14 {
+  top: 372px;
+  left: 352px;
+  color: rgba(106, 106, 106, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text16 {
+  top: 671px;
+  left: 298px;
+  color: rgba(34, 34, 34, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text18 {
+  top: 715px;
+  left: 249px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text19 {
+  color: rgba(112, 112, 112, 1);
+}
+.login-line1 {
+  top: 384px;
+  left: 385px;
+  width: 130px;
+  height: 1px;
+  position: absolute;
+}
+.login-line2 {
+  top: 384px;
+  left: 204px;
+  width: 130px;
+  height: 1px;
+  position: absolute;
+}
+.login-whats-app-image20240106at21422 {
   top: 0px;
   left: 0px;
   width: 189px;
   height: 125px;
   position: absolute;
-}
-.contact-page-luxuryhouserealestatesalepropertygenerativeai1 {
-  top: 125px;
-  left: 0px;
-  width: 1440px;
-  height: 405px;
-  position: absolute;
-}
-.contact-page-frame14 {
-  gap: 50px;
-  top: 43px;
-  left: 358px;
-  width: 925px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-}
-.contact-page-text {
-  color: rgba(34, 34, 34, 1);
-  height: auto;
-  font-size: 24px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Lato;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-text02 {
-  color: rgba(34, 34, 34, 1);
-  height: auto;
-  font-size: 24px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Lato;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-text04 {
-  color: rgba(34, 34, 34, 1);
-  height: auto;
-  font-size: 24px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Lato;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-text06 {
-  color: rgba(34, 34, 34, 1);
-  height: auto;
-  font-size: 24px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Lato;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-text08 {
-  color: rgba(34, 34, 34, 1);
-  height: auto;
-  font-size: 24px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Lato;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-text10 {
-  color: rgba(34, 34, 34, 1);
-  height: auto;
-  font-size: 24px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Lato;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-frame28 {
-  gap: 10px;
-  width: 100px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 15px;
-  justify-content: center;
-  background-color: rgba(34, 34, 34, 1);
-}
-.contact-page-text12 {
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  font-size: 20px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Lato;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-frame29 {
-  gap: 10px;
-  width: 110px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 15px;
-  justify-content: center;
-  background-color: rgba(34, 34, 34, 1);
-}
-.contact-page-text14 {
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  font-size: 20px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Lato;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-text16 {
-  top: 278px;
-  left: 405px;
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  position: absolute;
-  font-size: 35px;
-  font-style: Medium;
-  text-align: center;
-  font-family: Lato;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-rectangle30 {
-  top: 409px;
-  left: 421px;
-  width: 553px;
-  height: 533px;
-  position: absolute;
-}
-.contact-page-text21 {
-  top: 484px;
-  left: 445px;
-  color: rgba(80, 80, 80, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: center;
-  font-family: Lato;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-text23 {
-  top: 599px;
-  left: 445px;
-  color: rgba(80, 80, 80, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: center;
-  font-family: Lato;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-text25 {
-  top: 704px;
-  left: 445px;
-  color: rgba(80, 80, 80, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: center;
-  font-family: Lato;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-text27 {
-  top: 484px;
-  left: 754px;
-  color: rgba(80, 80, 80, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: center;
-  font-family: Lato;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-line1 {
-  top: 548px;
-  left: 445px;
-  width: 240px;
-  height: 1px;
-  position: absolute;
-}
-.contact-page-line4 {
-  top: 548px;
-  left: 755px;
-  width: 240px;
-  height: 1px;
-  position: absolute;
-}
-.contact-page-line2 {
-  top: 653px;
-  left: 445px;
-  width: 550px;
-  height: 1px;
-  position: absolute;
-}
-.contact-page-line3 {
-  top: 808px;
-  left: 445px;
-  width: 550px;
-  height: 1px;
-  position: absolute;
-}
-.contact-page-frame39 {
-  gap: 10px;
-  top: 873px;
-  left: 669px;
-  width: 102px;
-  display: flex;
-  padding: 10px 20px;
-  position: absolute;
-  align-items: center;
-  border-radius: 5px;
-  justify-content: center;
-  background-color: rgba(34, 34, 34, 1);
-}
-.contact-page-text29 {
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  font-size: 20px;
-  font-style: Medium;
-  text-align: center;
-  font-family: Lato;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-frame45 {
-  gap: 15px;
-  top: 1087px;
-  left: 604px;
-  width: 231px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.contact-page-frame40 {
-  gap: 10px;
-  width: 70px;
-  height: 70px;
-  display: flex;
-  padding: 10px;
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 50px;
-  justify-content: center;
-  background-color: rgba(34, 34, 34, 1);
-}
-.contact-page-phone {
-  width: 36px;
-  height: 36px;
-}
-.contact-page-text31 {
-  color: rgba(34, 34, 34, 1);
-  width: 231px;
-  height: auto;
-  font-size: 24px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Lato;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-text33 {
-  color: rgba(34, 34, 34, 1);
-  width: 231px;
-  height: auto;
-  font-size: 24px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Lato;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-frame44 {
-  gap: 15px;
-  top: 1087px;
-  left: 162px;
-  width: 279px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.contact-page-frame42 {
-  gap: 10px;
-  width: 70px;
-  height: 70px;
-  display: flex;
-  padding: 10px;
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 50px;
-  justify-content: center;
-  background-color: rgba(34, 34, 34, 1);
-}
-.contact-page-mail {
-  width: 36px;
-  height: 36px;
-}
-.contact-page-text35 {
-  color: rgba(34, 34, 34, 1);
-  width: 279px;
-  height: auto;
-  font-size: 24px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Lato;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-text37 {
-  color: rgba(34, 34, 34, 1);
-  width: 279px;
-  height: auto;
-  font-size: 24px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Lato;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-frame46 {
-  gap: 15px;
-  top: 1058px;
-  left: 998px;
-  width: 376px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-.contact-page-frame43 {
-  gap: 10px;
-  width: 70px;
-  height: 70px;
-  display: flex;
-  padding: 10px;
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 50px;
-  justify-content: center;
-  background-color: rgba(34, 34, 34, 1);
-}
-.contact-page-mappin {
-  width: 36px;
-  height: 36px;
-}
-.contact-page-text39 {
-  color: rgba(34, 34, 34, 1);
-  height: auto;
-  font-size: 24px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Lato;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.contact-page-text41 {
-  color: rgba(34, 34, 34, 1);
-  width: 314px;
-  height: auto;
-  font-size: 24px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Lato;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
 }
